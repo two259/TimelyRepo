@@ -13,13 +13,16 @@ public class MainActivity extends AppCompatActivity {
     TextView recorded1;
     TextView recorded2;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         record1 = findViewById(R.id.recordButton);
         record2 = findViewById(R.id.recordButton2);
-        recorded1 = findViewById(R.id.recordedTImes);
+        recorded1 = findViewById(R.id.recordedTimes);
         recorded2 = findViewById(R.id.recordedTimes2);
     }
+
+
 }
